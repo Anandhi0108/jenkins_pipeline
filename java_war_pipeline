@@ -6,7 +6,7 @@ tools {
 stages{
     stage('SCM checkout'){
         steps{
-            checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Anandhi0108/java-maven-app.git']])  
+            checkout scmGit(branches: [[name: '*/main']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/Anandhi0108/jenkins_pipeline.git']])  
         }
     }
     stage('Maven Build'){
